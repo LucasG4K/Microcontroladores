@@ -1,4 +1,15 @@
+<center>
+
 # Construção de Circuitos com Entradas e Saídas Digitais no Arduino
+*Gabriel Couto Assis*\
+*Lucas de Souza Gontijo*\
+*Mateus Henrique Pereira*\
+*Matheus Henrique Alves*
+#### CEFET-MG, Campus V
+#### Laboratório de Microcontroladores e Microprocessadores - Engenharia de Computação
+
+</center>
+
 
 ## Introdução
 Nos últimos anos, os microcontroladores têm desempenhado um papel importante e têm impulsionando a criação de uma ampla variedade de dispositivos inteligentes e sistemas embarcados. Esses dispositivos compactos, com grande de capacidade de processamento e memória, são capazes de executar tarefas específicas de controle e interação com o ambiente físico.
@@ -41,7 +52,7 @@ Para realizar os exercícios propostos de Entradas e Saídas Digitais no *Arduin
         </div>
     </div>
     
-   - **Descrição:** Utilizando a plataforma online *Wokwi* para simular o circuito *Olá Mundo* com o *Arduino* foi possível ver o código utilizado no *Arduino* que faz a inserção de textos no *display 16x2* ligado a ele. Foi possível ainda observar a montagem de circuitos utilizando as portas digitais do microcontrolador e ver como o programa lida com a atualização do *display* utilizado.
+   - **Descrição:** Foi utilizada a plataforma online *Wokwi* para simular o circuito *Olá Mundo* com o *Arduino* a fim de observar o código fonte, montagem do circuito e funcionamento básico do sistema ao exibir textos no *display 16x2*.
    
     - **Ligação dos circuitos e código arduino:**
     <div style="display: flex;">
@@ -184,7 +195,7 @@ Para realizar os exercícios propostos de Entradas e Saídas Digitais no *Arduin
                 </figure>
             </div>
         </div>
-    - **Descrição**: Os participantes projetaram um circuito utilizando o *Arduino* e um *display* de 7 segmentos. Os pinos digitais de 0 a 7 foram atribuídos aos segmentos de "a" a "g", respectivamente. Um programa foi desenvolvido para apresentar o número 9 neste *display*.
+    - **Descrição**: Os participantes projetaram um circuito utilizando o *Arduino* e os componentes mencionados. Para isso, os pinos digitais de 0 a 7 foram atribuídos aos segmentos de "a" a "g", respectivamente. Um programa foi desenvolvido para apresentar o número 9 neste *display*.
 
     - **Ligação dos circuitos e código arduino:**
     <div style="display: flex;">
@@ -339,24 +350,90 @@ Para realizar os exercícios propostos de Entradas e Saídas Digitais no *Arduin
 
 
 ## Resultados
+Após a montagem dos circuitos propostos em cada exercício, foi possível fazer a simulação e observar o comportamento em cada caso, conforme demonstrado abaixo:
 
-Links para os projetos:
+1. **Simulação do Circuito *Olá Mundo***: ([Exercício 01/Wokwi](https://wokwi.com/projects/322062421191557714))
+<div style="padding: 5px;">
+    <figure style="text-align: center;">
+        <img src="imgs/simulacao1.png" height="300px">
+        <figcaption style="text-align: center;"><em>Fig. 16: Simulação em execução</em></figcaption>
+    </figure>
+</div>
 
-* [Exercício 01/Wokwi](https://wokwi.com/projects/322062421191557714)<br>
-* [Exercício 02/Wokwi](https://wokwi.com/projects/394156033331546113)<br>
-* [Exercício 03/Wokwi](https://wokwi.com/projects/393575958384177153)<br>
-* [Exercício 04/Wokwi](https://wokwi.com/projects/393577313414001665)<br>
+Utilizando a plataforma online *Wokwi* para simular o circuito *Olá Mundo* com o *Arduino* foi possível ver o código utilizado no *Arduino* que faz a inserção de textos no *display 16x2* ligado a ele. Foi possível ainda observar a montagem de circuitos utilizando as portas digitais do microcontrolador e ver como o programa lida com a atualização do *display* utilizado.
 
+2. **Projeto de um Circuito com Botões e LEDs**: ([Exercício 02/Wokwi](https://wokwi.com/projects/394156033331546113))
+<div style="display: flex;">
+    <div style="flex: 50%; padding: 5px;">
+        <figure style="text-align: center;">
+            <img src="imgs/simulacao2.1.png" width="200px">
+            <figcaption style="text-align: center;"><em>Fig. 17: Simulação em execução</em></figcaption>
+        </figure>
+    </div>
+    <div style="flex: 50%; padding: 5px;">
+        <figure style="text-align: center;">
+            <img src="imgs/simulacao2.2.png" width="200px">
+            <figcaption style="text-align: center;"><em>Fig. 18: Simulação em execução</em></figcaption>
+        </figure>
+    </div>
+</div>
+
+Os participantes obtiveram sucesso na criação do circuito utilizando o Arduino e os componentes especificados. Além disso, conseguiram desenvolver um programa que controla o comportamento dos LEDs conforme o acionamento dos botões. Durante os testes, verificou-se que ao pressionar um dos botões, o LED vermelho foi ativado enquanto o verde permaneceu desligado. Quando o outro botão foi pressionado, os LEDs alternaram conforme o esperado, demonstrando o correto funcionamento do sistema.
+
+3. **Projeto de um Circuito com Display de 7 Segmentos**: ([Exercício 03/Wokwi](https://wokwi.com/projects/393575958384177153))
+<div style="padding: 5px;">
+    <figure style="text-align: center;">
+        <img src="imgs/simulacao3.png" height="300px">
+        <figcaption style="text-align: center;"><em>Fig. 19: Simulação em execução</em></figcaption>
+    </figure>
+</div>
+
+Após o desenvolvimento do circuito utilizando o *Arduino* e o *display* de 7 segmentos, os participantes atribuíram os pinos digitais de 0 a 7 aos segmentos correspondentes. Em seguida, foi elaborado um programa que permitiu a apresentação do número 9 no *display*. Os testes realizados confirmaram que o número 9 foi corretamente exibido no *display*, indicando o sucesso na implementação do circuito e do programa.
+
+
+4. **Adição de Botões ao Circuito do Exercício Anterior**: ([Exercício 04/Wokwi](https://wokwi.com/projects/393577313414001665))
+<div style="display: flex;">
+    <div style="flex: 50%; padding: 5px;">
+        <figure style="text-align: center;">
+            <img src="imgs/simulacao4.1.png" width="200px">
+            <figcaption style="text-align: center;"><em>Fig. 20: Simulação em execução - valor 0</em></figcaption>
+        </figure>
+    </div>
+    <div style="flex: 50%; padding: 5px;">
+        <figure style="text-align: center;">
+            <img src="imgs/simulacao4.2.png" width="200px">
+            <figcaption style="text-align: center;"><em>Fig. 21: Simulação em execução - valor 1</em></figcaption>
+        </figure>
+    </div>
+    <div style="flex: 50%; padding: 5px;">
+        <figure style="text-align: center;">
+            <img src="imgs/simulacao4.3.png" width="200px">
+            <figcaption style="text-align: center;"><em>Fig. 22: Simulação em execução - valor 2</em></figcaption>
+        </figure>
+    </div>
+</div>
+
+Após a adição de dois botões ao circuito anterior, os participantes prosseguiram com o desenvolvimento de um programa que possibilita uma contagem de 0 a 9 no display de 7 segmentos. O programa foi projetado para que o número exibido aumente quando um dos botões é pressionado e diminua quando o outro botão é acionado. Durante os testes realizados, verificou-se que o programa funcionou conforme o esperado, demonstrando a correta interação entre os botões e o display, resultando em uma contagem precisa e controlada.
+
+Em resumo, os resultados desses exercícios refletem um progresso significativo no entendimento e na aplicação dos conceitos relacionados a entradas e saídas digitais no Arduino, capacitando os alunos para enfrentar desafios mais complexos no desenvolvimento de projetos futuros.
+
+A seguir, estão disponíveis os *links* de cada exercício realizado:
+
+* [Exercício 01/Wokwi](https://wokwi.com/projects/322062421191557714)
+* [Exercício 02/Wokwi](https://wokwi.com/projects/394156033331546113)
+* [Exercício 03/Wokwi](https://wokwi.com/projects/393575958384177153)
+* [Exercício 04/Wokwi](https://wokwi.com/projects/393577313414001665)
 
 ## Conclusão
 
+Neste projeto, exploramos o *Arduino* e a plataforma *Wokwi* para aprender sobre microcontroladores e sistemas embarcados. Através de exercícios práticos, como simular o circuito *"Olá Mundo"* e projetar circuitos com botões, *LEDs* e *displays* de 7 segmentos, desenvolvemos habilidades essenciais para controlar as entradas e saídas digitais deste microcontrolador.
 
 ## Referências
-- Arduino. Disponível em: https://www.arduino.cc/. Acesso em: 01 de abril de 2024.
-- Wokwi. Disponível em: https://wokwi.com/. Acesso em: 01 de abril de 2024.
-- Circuito "Olá Mundo" plataforma Wokwi. Disponível em: https://wokwi.com/projects/322062421191557714. Acesso em: 03 de abril de 2024.
-- Arduino Uno. Disponível em: https://docs.arduino.cc/hardware/uno-rev3/. Acesso em: 03 de abril de 2024.
-- LCD 16x2. Disponível em: https://docs.arduino.cc/learn/electronics/lcd-displays/. Acesso em: 03 de abril de 2024.
-- Push Button. Disponível em: https://circuitdigest.com/electronic-circuits/push-button-led-circuit. Acesso em: 04 de abril de 2024.
-- Led. Disponível em: https://electronicsclub.info/leds.htm. Acesso em: 04 de abril de 2024.
-- Display de 7 segmentos. Disponível em: https://www.electronicsforu.com/resources/7-segment-display-pinout-understanding. Acesso em: 04 de abril de 2024.
+- Arduino. Disponível em: [https://www.arduino.cc/](https://www.arduino.cc/). Acesso em: 01 de abril de 2024.
+- Wokwi. Disponível em: [https://wokwi.com/](https://wokwi.com/). Acesso em: 01 de abril de 2024.
+- Circuito "Olá Mundo" plataforma Wokwi. Disponível em: [https://wokwi.com/projects/322062421191557714](https://wokwi.com/projects/322062421191557714). Acesso em: 03 de abril de 2024.
+- Arduino Uno. Disponível em: [https://docs.arduino.cc/hardware/uno-rev3/](https://docs.arduino.cc/hardware/uno-rev3/). Acesso em: 03 de abril de 2024.
+- LCD 16x2. Disponível em: [https://docs.arduino.cc/learn/electronics/lcd-displays/](https://docs.arduino.cc/learn/electronics/lcd-displays/). Acesso em: 03 de abril de 2024.
+- Push Button. Disponível em: [https://circuitdigest.com/electronic-circuits/push-button-led-circuit](https://circuitdigest.com/electronic-circuits/push-button-led-circuit). Acesso em: 04 de abril de 2024.
+- Led. Disponível em: [https://electronicsclub.info/leds.htm](https://electronicsclub.info/leds.htm). Acesso em: 04 de abril de 2024.
+- Display de 7 segmentos. Disponível em: [https://www.electronicsforu.com/resources/7-segment-display-pinout-understanding](https://www.electronicsforu.com/resources/7-segment-display-pinout-understanding). Acesso em: 04 de abril de 2024.
